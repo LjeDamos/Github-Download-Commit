@@ -5,6 +5,8 @@
 // @description  Add a Download ZIP button for each commit snapshot on GitHub commit list pages
 // @match        https://github.com/*/*/commits*
 // @match        https://github.com/*/*/commit/*
+// @updateURL    https://raw.githubusercontent.com/LjeDamos/Github-Download-Commit/refs/heads/main/Github-Download-Commit.user.js
+// @downloadURL  https://raw.githubusercontent.com/LjeDamos/Github-Download-Commit/refs/heads/main/Github-Download-Commit.user.js
 // @grant        none
 // ==/UserScript==
 
