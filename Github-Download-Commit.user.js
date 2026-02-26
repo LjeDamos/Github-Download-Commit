@@ -2,12 +2,12 @@
 // @name         GitHub commit snapshot download button
 // @author       LjeDamos
 // @namespace    http://tampermonkey.net/
-// @version      0.2
+// @version      0.3
 // @description  Add a Download ZIP button for each commit snapshot on GitHub commit list pages
 // @match        https://github.com/*/*/commits*
 // @match        https://github.com/*/*/commit/*
-// @updateURL    https://raw.githubusercontent.com/LjeDamos/Github-Download-Commit/refs/heads/main/Github-Download-Commit.user.js
-// @downloadURL  https://raw.githubusercontent.com/LjeDamos/Github-Download-Commit/refs/heads/main/Github-Download-Commit.user.js
+// @updateURL    https://github.com/LjeDamos/Github-Download-Commit/raw/main/Github-Download-Commit.user.js
+// @downloadURL  https://github.com/LjeDamos/Github-Download-Commit/raw/main/Github-Download-Commit.user.js
 // @grant        none
 // ==/UserScript==
 
@@ -49,9 +49,9 @@
             tooltip.setAttribute('data-direction', 'sw');
             tooltip.setAttribute('data-type', 'label');
             tooltip.setAttribute('data-view-component', 'true');
-            tooltip.setAttribute('popover', 'manual'); // Strictly required by GitHub's latest UI
-            tooltip.className = 'sr-only position-absolute'; // Ensures it starts hidden natively
-            tooltip.textContent = 'Download ZIP of current commit';
+            tooltip.setAttribute('popover', 'manual');
+            tooltip.className = 'sr-only position-absolute';
+            tooltip.textContent = 'Download ZIP';
 
             // 3. Insert them immediately after the wrapper
             const wrapper = link.parentElement;
