@@ -2,13 +2,14 @@
 // @name         GitHub commit snapshot download button
 // @author       LjeDamos
 // @namespace    http://tampermonkey.net/
-// @version      0.3
+// @version      0.31
 // @description  Add a Download ZIP button for each commit snapshot on GitHub commit list pages
 // @match        https://github.com/*/*/commits*
 // @match        https://github.com/*/*/commit/*
 // @updateURL    https://github.com/LjeDamos/Github-Download-Commit/raw/main/Github-Download-Commit.user.js
 // @downloadURL  https://github.com/LjeDamos/Github-Download-Commit/raw/main/Github-Download-Commit.user.js
 // @grant        none
+// @homepage     https://github.com/LjeDamos/Github-Download-Commit
 // ==/UserScript==
 
 (function () {
