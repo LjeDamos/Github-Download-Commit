@@ -1,7 +1,8 @@
 // ==UserScript==
 // @name         GitHub commit snapshot download button
+// @author       LjeDamos
 // @namespace    http://tampermonkey.net/
-// @version      26.02.2026
+// @version      0.1
 // @description  Add a Download ZIP button for each commit snapshot on GitHub commit list pages
 // @match        https://github.com/*/*/commits*
 // @match        https://github.com/*/*/commit/*
