@@ -8,6 +8,8 @@ A user script that adds Download zip button to commit in commit history
 
 # Preview
 <img width="1808" height="398" alt="image" src="https://github.com/user-attachments/assets/ea06739d-05a0-47d3-bda9-b2bbcbbbeec0" />
+<img width="1213" height="114" alt="image" src="https://github.com/user-attachments/assets/63c12cc0-131b-4a94-bafd-4660579fd5d1" />
+
 
 # Script description
 1. Targeting Links: The script scans the page for links pointing to a commit's "tree" view (the <> button on GitHub that lets you browse the files of a past commit).
